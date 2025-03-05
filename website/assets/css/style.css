@@ -1,3 +1,37 @@
 body{
     background: #BDBDBD;
 }
+
+.hero-section {
+    background: url('/website/assets/img/bg.jpg') center/cover no-repeat #cccccc;
+    height: 90vh;
+    width: 100%;
+}
+
+.hero-title {
+    background-color: aliceblue;
+    display: inline-block;
+    font-size: 5vw; 
+    padding: 1rem 2rem; 
+}
+
+.hero-subtitle {
+    background-color: aliceblue;
+    display: inline-block;
+    font-size: 3vw; 
+    padding: 0.5rem 1rem; 
+}
+
+
+@media (max-width: 768px) {
+    .hero-section {
+        min-height: 60vh;
+        width: 50%;
+        height: 50%;
+    }
+
+    .hero-title, .hero-subtitle {
+        font-size: 6vw; 
+        max-width: 100%;
+    }
+}
